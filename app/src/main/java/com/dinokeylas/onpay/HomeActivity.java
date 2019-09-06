@@ -32,7 +32,7 @@ public class HomeActivity extends AppCompatActivity {
                         selectedFragment = NotificationFragment.newInstance();
                         break;
                     case R.id.navigation_profile:
-                        selectedFragment = ProfileFragment.newInstance();
+                        selectedFragment = AccountFragment.newInstance();
                         break;
                 }
                 FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
