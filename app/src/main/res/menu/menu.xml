@@ -12,7 +12,7 @@
 
     <item
         android:id="@+id/dino"
-        android:title="@string/blank"/>
+        android:title="@string/pay"/>
 
     <item
         android:id="@+id/navigation_notification"
