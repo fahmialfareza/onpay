@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BillInputActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/tv_merchant_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/merchants_name"
+            android:layout_marginTop="50sp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tv_merchant_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/merchants_address"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="12sp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total_amount"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp"
+                android:layout_marginEnd="20dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="30sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/et_nominal"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:hint="@string/nol"
+                android:autofillHints="@string/nol"
+                android:textColor="@color/colorWhite"
+                android:inputType="number"
+                android:textColorHighlight="@color/colorWhite"
+                android:backgroundTint="@color/colorWhite"
+                android:textColorHint="@color/colorWhite"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
