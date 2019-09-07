@@ -36,4 +36,11 @@
     <string name="daftar">Daftar</string>
     <string name="login">Login</string>
     <string name="belum_punya_akun_klik_disini">Belum punya akun? Klik disini</string>
+    <string name="user_name">User Name</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="detail_profile">Detail Profile</string>
+    <string name="edit">Edit</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="logout">Logout</string>
+    <string name="friends">Friends</string>
 </resources>
