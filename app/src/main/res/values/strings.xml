@@ -23,4 +23,8 @@
     <string name="notification">Notification</string>
     <string name="chat">Chat</string>
     <string name="sure">Sure!</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="merchants_name">Merchants Name</string>
+    <string name="lorem_ipsum">Lorem Ipsum dolor sik amet, Lorem Ipsum dolor sik amet,Lorem Ipsum dolor sik amet,Lorem Ipsum dolor sik amet</string>
+    <string name="merchants_address">Merchants Address</string>
 </resources>

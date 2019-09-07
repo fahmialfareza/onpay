@@ -70,7 +70,7 @@
                 android:layout_gravity="start"
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="5dp"
-                android:text="@string/your_saldo"
+                android:text="@string/your_balance"
                 android:textSize="15sp"
                 android:textStyle="bold" />
 

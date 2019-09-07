@@ -29,7 +29,7 @@ public class PayOptionActivity extends AppCompatActivity {
         ViewPager viewPager = findViewById(R.id.viewpager);
 
         setSupportActionBar(toolbar);
-        Objects.requireNonNull(getSupportActionBar()).setTitle("Daftar Transaksi");
+        Objects.requireNonNull(getSupportActionBar()).setTitle("Payment");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         setupViewPager(viewPager);
         tabLayout.setupWithViewPager(viewPager);
