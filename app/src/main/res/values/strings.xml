@@ -29,4 +29,11 @@
     <string name="merchants_address">Merchants Address</string>
     <string name="total_amount">Total Amount</string>
     <string name="nol">0</string>
+    <string name="gambar">gambar</string>
+    <string name="email">Email</string>
+    <string name="kata_sandi">Kata Sandi</string>
+    <string name="ulangi_kata_sandi">Ulangi Kata Sandi</string>
+    <string name="daftar">Daftar</string>
+    <string name="login">Login</string>
+    <string name="belum_punya_akun_klik_disini">Belum punya akun? Klik disini</string>
 </resources>

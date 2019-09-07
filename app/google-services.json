@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "511910941792",
+    "firebase_url": "https://onpay-e3d65.firebaseio.com",
+    "project_id": "onpay-e3d65",
+    "storage_bucket": "onpay-e3d65.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511910941792:android:d8b09ba43e345b8cb71f05",
+        "android_client_info": {
+          "package_name": "com.dinokeylas.onpay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511910941792-cd1e245h0u55se7b55rqvdqpoe7vujrr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dinokeylas.onpay",
+            "certificate_hash": "e84c84d5758fc314a7d09df1e02dab44a666acb2"
+          }
+        },
+        {
+          "client_id": "511910941792-koadr0tu7rjpcv4siik8tjdbjqj9kr20.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA2w4ZGJf05BNOctu9yNeMI9X-MpQUENQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511910941792-koadr0tu7rjpcv4siik8tjdbjqj9kr20.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

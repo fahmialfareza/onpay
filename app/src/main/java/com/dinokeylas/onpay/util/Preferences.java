@@ -1,4 +1,4 @@
-package com.dinokeylas.onpay;
+package com.dinokeylas.onpay.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
