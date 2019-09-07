@@ -11,4 +11,16 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="pay">Pay</string>
+    <string name="onpay">Onpay</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="initial_name">Dino Keylas</string>
+    <string name="rp_120_000">Rp 120.000</string>
+    <string name="your_saldo">Your Saldo</string>
+    <string name="top_up">Top Up</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="check_promos">Wanna check promos around you?</string>
+    <string name="notification">Notification</string>
+    <string name="chat">Chat</string>
+    <string name="sure">Sure!</string>
 </resources>

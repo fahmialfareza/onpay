@@ -6,18 +6,19 @@
         android:title="@string/home" />
 
     <item
-        android:id="@+id/navigation_history"
-        android:icon="@drawable/ic_history_black_24dp"
-        android:title="@string/history" />
+        android:id="@+id/navigation_chat"
+        android:icon="@drawable/ic_chat_black_24dp"
+        android:title="@string/chat" />
 
     <item
         android:id="@+id/dino"
+        android:enabled="false"
         android:title="@string/pay"/>
 
     <item
         android:id="@+id/navigation_notification"
         android:icon="@drawable/ic_notifications_black_24dp"
-        android:title="@string/favorite" />
+        android:title="@string/notification" />
 
     <item
         android:id="@+id/navigation_profile"

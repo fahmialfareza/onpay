@@ -25,8 +25,8 @@ public class HomeActivity extends AppCompatActivity {
                     case R.id.navigation_home:
                         selectedFragment = HomeFragment.newInstance();
                         break;
-                    case R.id.navigation_history:
-                        selectedFragment = HistoryFragment.newInstance();
+                    case R.id.navigation_chat:
+                        selectedFragment = ChatFragment.newInstance();
                         break;
                     case R.id.navigation_notification:
                         selectedFragment = NotificationFragment.newInstance();

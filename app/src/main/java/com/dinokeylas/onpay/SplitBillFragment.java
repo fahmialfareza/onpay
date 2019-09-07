@@ -8,14 +8,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class HistoryFragment extends Fragment {
+public class SplitBillFragment extends Fragment {
 
-    public HistoryFragment() {
+    public SplitBillFragment() {
         // Required empty public constructor
     }
 
-    public static HistoryFragment newInstance() {
-        return new HistoryFragment();
+    public static SplitBillFragment newInstance(String param1, String param2) {
+        return new SplitBillFragment();
     }
 
     @Override
@@ -24,8 +24,9 @@ public class HistoryFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_history, container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_split_bill, container, false);
         return view;
     }
 }

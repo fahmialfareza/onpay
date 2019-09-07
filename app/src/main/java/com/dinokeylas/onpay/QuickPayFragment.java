@@ -1,19 +1,21 @@
 package com.dinokeylas.onpay;
 
+import android.content.Context;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class AccountFragment extends Fragment {
+public class QuickPayFragment extends Fragment {
 
-    public AccountFragment() {
+    public QuickPayFragment() {
         // Required empty public constructor
     }
 
-    public static AccountFragment newInstance() {
-        return new AccountFragment();
+    public static QuickPayFragment newInstance(String param1, String param2) {
+        return new QuickPayFragment();
     }
 
     @Override
@@ -23,7 +25,8 @@ public class AccountFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_account, container, false);
+        View view = inflater.inflate(R.layout.fragment_quick_pay, container, false);
         return view;
     }
+
 }
