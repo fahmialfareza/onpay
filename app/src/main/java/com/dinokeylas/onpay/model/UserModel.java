@@ -4,8 +4,10 @@ public class UserModel {
 
     private String userName, fullName, emailAddress, address, profileImageUrl, phoneNumber, password;
     private int pin;
+    private double balance;
 
     public UserModel(){
+
     }
 
     public UserModel(String userName, String fullName, String emailAddress, String address, String profileImageUrl, String phoneNumber, String password, int pin) {
@@ -17,6 +19,18 @@ public class UserModel {
         this.phoneNumber = phoneNumber;
         this.password = password;
         this.pin = pin;
+    }
+
+    public void setProfileImageUrl(String profileImageUrl) {
+        this.profileImageUrl = profileImageUrl;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
+    public void updateBalance(double nominal){
+        balance = balance + nominal;
     }
 
     public String getUserName() {
@@ -49,7 +63,7 @@ public class UserModel {
         return pin;
     }
 
-    public void setProfileImageUrl(String profileImageUrl) {
-        this.profileImageUrl = profileImageUrl;
+    public double getBalance() {
+        return balance;
     }
 }

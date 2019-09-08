@@ -43,4 +43,14 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="logout">Logout</string>
     <string name="friends">Friends</string>
+    <string name="next">Next</string>
+    <string name="suasana_co">Suasana.co</string>
+    <string name="jl_gajayana_no_12_malang">Jl. Gajayana No. 12, Malang</string>
+    <string name="total">Total</string>
+    <string name="choose_your_friend">Choose Your Friend</string>
+    <string name="mikail_afghan">Mikail Afghan</string>
+    <string name="ahmad_andriansyah">Ahmad Andriansyah</string>
+    <string name="fahmi_alfareza">Fahmi Alfareza</string>
+    <string name="riekko_rahardian">Riekko Rahardian</string>
+    <string name="gilang_widianto">Gilang Widianto</string>
 </resources>
